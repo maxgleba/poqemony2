@@ -1,0 +1,69 @@
+body {
+    background-image: url('assets/SkyDay.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.battlefield {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.pokemon {
+    width: 200px;
+    text-align: center;
+}
+
+.pokemon-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.health-bar {
+    width: 100%;
+    height: 20px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.health {
+    height: 100%;
+    background-color: green;
+    transition: width 0.5s;
+}
+
+.pokeball {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+    transition: all 0.8s ease-in-out;
+}
+.logs {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #00bfff;
+}
+.logs div {
+    margin-bottom: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="assets/Pokemon_logo.png" alt="Pokemon Logo" class="logo">
+        
+        <div class="battlefield">
+            <div class="pokemon" id="pokemon1">
+                <h3>PIKACHU</h3>
+                <img src="https://avatanplus.com/files/resources/original/566f66bd93c2b151a32954a5.png" alt="Pikachu" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health1" style="width: 100%;"></div>
+                </div>
+                <button id="attack1">Attack</button>
+                <button id="special1">Special Attack</button>
+            </div>
+
+            <div class="pokemon" id="pokemon2">
+                <h3>CHARMANDER</h3>
+                <img src="https://www.pngplay.com/wp-content/uploads/10/Charmander-Pokemon-PNG-Images-HD.png" alt="Charmander" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health2" style="width: 100%;"></div>
+                </div>
+                <button id="attack2">Attack</button>
+                <button id="special2">Special Attack</button>
+            </div>
+
+            <img id="pokeball" src="https://avatanplus.com/files/resources/original/57910e491e9421560e9fcda5.png" alt="Pokeball" class="pokeball">
+        </div>
+
+        <!-- Добавляем лог боев -->
+        <div id="logs" class="logs"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
